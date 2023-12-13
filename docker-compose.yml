@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  haskell-dev:
+    container_name: "haskell-dev-container"
+    build: .
+    volumes:
+      - ./scripts:/haskellenv
+    stdin_open: true
+    tty: true

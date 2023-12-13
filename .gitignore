@@ -1,0 +1,4 @@
+# git ignore compile files (.o, .hi, executables)
+*.hi
+*.o
+yourscript
